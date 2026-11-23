@@ -1,0 +1,16 @@
+name = "philips-testy"
+main = "src/worker.js"
+compatibility_date = "2025-06-01"
+
+[triggers]
+crons = ["*/15 * * * *"]
+
+[vars]
+TELEGRAM_CHAT_ID = "-5350997982"
+
+[[kv_namespaces]]
+binding = "STATE"
+id = "7387501e56a04c348e79efc429fee02d"
+
+[observability]
+enabled = true
